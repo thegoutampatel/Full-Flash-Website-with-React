@@ -3,7 +3,7 @@ import Nav from '../../components/Nav'
 
 const Section1 = () => {
   return (
-    <div className=' bg-grey w-full flex flex-col items-center h-[100vh]'>
+    <div className=' bg-grey w-full flex flex-col items-center'>
 
        <div className='my-10'> <Nav/></div>
 
