@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <div className='w-[80vw] h-[60px] bg-white flex items-center justify-between rounded-lg shadow-xl'>
-      <img src={Logo} alt="" className=' w-[171px] h-[31px]' />
+     <NavLink to='/'> <img src={Logo} alt="" className=' w-[171px] h-[31px]' /></NavLink>
       <div className='flex gap-3 mr-8 text-dark-grey '>
         <NavLink to='/' exact activeClassName='font-semibold'>
           <a href="" className={`hover:underline transition-all ${location.pathname === '/' && 'font-semibold'}`}>Home</a>
