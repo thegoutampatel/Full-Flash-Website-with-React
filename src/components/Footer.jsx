@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='relative bg-footer-bg bg-cover bg-center h-[500px] mt-10'>
+    <div className='relative bg-[url("/public/footer.png")] bg-cover bg-center h-[500px] mt-10'>
       
       <div className='absolute bottom-20 left-0 right-0 text-white'>
         <div className='flex items-center justify-evenly '>

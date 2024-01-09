@@ -1,4 +1,5 @@
 import React from 'react'
+import Aboutimg2 from '/src/Pages/about/images/AboutImg2.png'
 
 const AboutSec2 = () => {
   return (
@@ -25,7 +26,7 @@ const AboutSec2 = () => {
              Nisi morbi augue lacus maecenas. Non nunc cursus fames tellus vulputate donec ac at. Velit rhoncus.
              </p>
          </div>
-         <img src="/src/Pages/about/images/AboutImg2.png" alt="" className='w-[350px] h-[500px]  m-auto pt-5 lg:pt-0 lg:m-0'/>   
+         <img src={Aboutimg2} alt="" className='w-[350px] h-[500px]  m-auto pt-5 lg:pt-0 lg:m-0'/>   
      </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../../components/Nav'
+import Aboutimg1 from '/src/Pages/about/images/AboutImg1.png'
 
 const AboutSec1 = () => {
   return (
@@ -9,7 +10,7 @@ const AboutSec1 = () => {
 
      <div className=' flex flex-col lg:flex-row gap-8 mb-10 lg:mt-5 '>
      
-        <img src="/src/Pages/about/images/AboutImg1.png" alt="" className='w-[350px] h-[500px]  m-auto pt-5 lg:pt-0 lg:m-0'/>   
+        <img src={Aboutimg1} alt="" className='w-[350px] h-[500px]  m-auto pt-5 lg:pt-0 lg:m-0'/>   
 
          <div className=' flex flex-col justify-center mx-4 lg:mx-0 items-start'>
              <h3 className=' text-h4-sm lg:text-h4  text-white'>About me</h3>
