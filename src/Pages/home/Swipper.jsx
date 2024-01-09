@@ -7,6 +7,10 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
+import card1 from './products-img/card1.png'
+import card2 from './products-img/card2.png'
+import card3 from './products-img/card3.png'
+
 import './SwipperStyle.css';
 
 // import required modules
@@ -32,13 +36,13 @@ export default function Swipper() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src={card1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src={card2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src={card3}/>
         </SwiperSlide>
         
       </Swiper>

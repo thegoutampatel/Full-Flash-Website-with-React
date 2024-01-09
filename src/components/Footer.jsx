@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo2 from '/src/assets/images/logo2.svg'
 const Footer = () => {
   return (
     <div className='relative bg-[url("/public/footer.png")] bg-cover bg-center h-[500px] mt-10'>
@@ -9,7 +9,7 @@ const Footer = () => {
 
           <div className='flex items-center flex-col gap-5'>
           <div>
-            <img src='/src/assets/images/logo2.svg' alt="Logo" className='w-[171px] h-[31px]' />
+            <img src={logo2} alt="Logo" className='w-[171px] h-[31px]' />
           </div>
 
           <div className='text-white'>
