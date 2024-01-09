@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from '../../components/Nav'
+import Component3 from '/src/assets/images/Component3.svg'
 
 const Section1 = () => {
   return (
@@ -21,7 +22,7 @@ const Section1 = () => {
                 <button className=' text-white border px-4 py-1 rounded-lg font-semibold'>view Details</button>
             </div>
 
-            <img src="/src/assets/images/Component3.svg" alt="" className='lg:w-[450px] lg:h-[488px] w-[300px] h-[400] m-auto pt-5 lg:pt-0 lg:m-0'/>   
+            <img src={Component3} alt="" className='lg:w-[450px] lg:h-[488px] w-[300px] h-[400] m-auto pt-5 lg:pt-0 lg:m-0'/>   
         </div>
     </div>
   )

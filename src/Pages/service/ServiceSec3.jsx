@@ -1,4 +1,6 @@
 import React from 'react'
+import Component4 from '/src/assets/images/Component4.svg'
+
 
 const ServiceSec3 = () => {
   return (
@@ -6,7 +8,7 @@ const ServiceSec3 = () => {
 
         <div className=' flex flex-col lg:flex-row gap-5 '>
         
-            <img src="/src/assets/images/Component4.svg" alt="" className='lg:w-[450px] lg:h-[400px] w-[300px] h-[400] m-auto pt-5 lg:pt-0 lg:m-0  '/>   
+            <img src={Component4} alt="" className='lg:w-[450px] lg:h-[400px] w-[300px] h-[400] m-auto pt-5 lg:pt-0 lg:m-0  '/>   
 
             <div className=' flex flex-col justify-center mx-4 lg:mx-0 items-start gap-5'>
                 <h3 className=' text-h3-sm lg:text-h3  text-white font-semibold'>Put Your Trash</h3>

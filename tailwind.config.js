@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'footer-bg': "url('./src/assets/footer.png')",
+        'footer-bg': "url('./public/footer.png')",
       },
       fontSize: {
         'h1': '40px',
